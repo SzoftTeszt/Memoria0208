@@ -1,0 +1,17 @@
+.box{
+  width: 100px;
+  height: 100px;
+  /* background-image:url('../img/1.png'); */
+  background-size: cover;
+  /* background-color: rgb(119, 57, 67); */
+  background-color: rgb(155, 100, 109);
+  float:left;
+}
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+.row{
+  margin:0 auto;
+}
